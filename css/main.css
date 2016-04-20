@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+/*header*/
+/*start nav*/
+body,html {
+  height: 100%;
+}
+
+
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+}
+
+.wide img {
+  width:100%;
+
+}
+.navbar-custom {
+    background-color:#f9f9f9;
+    color:#000;
+    border-radius:0;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#000;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color:transparent;
+}
+
+.logo {
+  padding-top:25px;
+  padding:0px;
+  text-align:center;
+}
+
+.line {
+  padding-top:25px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}
+nav{
+   position: relative;
+
+}
+.right-nav li{
+  color:#000;
+  list-style-type: none;
+}/*end nav*/
+
+/*end header*/
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+       .logo {
+     
+    padding:0px;
+    text-align:center;
+  }
+  .line {
+    padding-top:10px;
+    white-space:no-wrap;
+    overflow:hidden;
+    text-align:center;
+  }
+       .right-nav li{
+  
+  float:right;
+}
+
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+      .right-nav li{
+  
+  float:right;
+}
+
+}
+/*Mobile small screens*/
+@media (max-width: 405px){
+
+    .logo {
+      
+    padding:10px;
+    text-align:center;
+  }
+  .line {
+    padding-top:0px;
+    white-space:no-wrap;
+    overflow:hidden;
+    text-align:center;
+  }
+
+}

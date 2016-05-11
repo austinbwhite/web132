@@ -10,6 +10,20 @@
 /*start nav*/
 body,html {
   height: 100%;
+    
+}
+
+iframe{
+  width:auto;
+  height:auto;
+  
+}
+body {
+  font-size:2em;
+}
+
+h1,h2,h3 {
+  font-size:1em;
 }
 
 
@@ -30,6 +44,15 @@ body,html {
 }
 .navbar-custom .navbar-toggle .icon-bar {
     background-color: black;
+    
+}
+.navbar-custom .container .navbar-header .navbar-toggle{
+
+    background-image:url("http://austinwhitebaker.com/web132/final/assets/mobileMenuButton.png");
+    background-size: cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -37,7 +60,8 @@ body,html {
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #000;
-    background-color:transparent;
+    background-color:black;
+    
 }
 
 .logo {
@@ -95,7 +119,7 @@ footer {
 /* Responsive Styles */
 
 
-@media(max-width:991px) {
+@media screen and (max-width:991px) {
     .customer-img,
     .img-related {
         margin-bottom: 30px;
@@ -118,7 +142,7 @@ footer {
 
 }
 
-@media(max-width:767px) {
+@media screen and(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
     }
@@ -133,7 +157,7 @@ footer {
 
 }
 /*Mobile small screens*/
-@media (max-width: 405px){
+@media screen and (max-width: 405px){
 
     .logo {
       
